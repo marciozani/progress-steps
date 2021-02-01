@@ -14,7 +14,6 @@ btnPrev.addEventListener('click', () => {
 
 btnNext.addEventListener('click', () => {
   if (currentStep <= circles.length) {
-    currentStep++;
     updateProgress(true);
     updateButtonStates();
   }
